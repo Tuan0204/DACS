@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+models/
+reports/figures/
+reports/metrics_*.json
+*.pt
+*.pth
+.DS_Store
+Thumbs.db
