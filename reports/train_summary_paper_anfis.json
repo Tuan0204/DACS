@@ -1,0 +1,13 @@
+{
+  "model_name": "paper_anfis_fuzzy_cnn",
+  "num_classes": 4,
+  "best_val_macro_f1": 0.752,
+  "test_accuracy": 0.8497,
+  "test_precision": 0.7187,
+  "test_recall": 0.7363,
+  "test_macro_f1": 0.695,
+  "train_size": 3081,
+  "val_size": 385,
+  "test_size": 386,
+  "device": "cpu"
+}

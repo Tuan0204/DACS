@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "model": "ResNet18",
+      "accuracy": 0.9585492227979274,
+      "macro_f1": 0.938487478187049,
+      "precision": 0,
+      "recall": 0,
+      "latency_ms": 1.4454572538791257
+    },
+    {
+      "model": "MobileNetV3-Small",
+      "accuracy": 0.961139896373057,
+      "macro_f1": 0.9414503002888753,
+      "precision": 0,
+      "recall": 0,
+      "latency_ms": 0.841170207234196
+    },
+    {
+      "model": "ANFIS-Fuzzy-CNN (baseline)",
+      "accuracy": 0.8341968911917098,
+      "macro_f1": 0.6869721101387962,
+      "precision": 0.6794884582502138,
+      "recall": 0.7222108252914541,
+      "latency_ms": 0
+    },
+    {
+      "model": "ANFIS-Fuzzy-CNN (finetune-weights)",
+      "accuracy": 0.8678756476683938,
+      "macro_f1": 0.7997778378636444,
+      "precision": 0.8079952035260565,
+      "recall": 0.7979042452926834,
+      "latency_ms": 0
+    },
+    {
+      "model": "ANFIS-Fuzzy-CNN (finetune-oversample)",
+      "accuracy": 0.8652849740932642,
+      "macro_f1": 0.8078942861240439,
+      "precision": 0.8105299448384554,
+      "recall": 0.8065098244104328,
+      "latency_ms": 0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "model_name": "efficientnet_b4",
+  "num_classes": 4,
+  "model_size_mb": 67.45,
+  "best_val_macro_f1": 0.994,
+  "train_size": 3081,
+  "val_size": 385,
+  "test_size": 386,
+  "device": "cpu"
+}

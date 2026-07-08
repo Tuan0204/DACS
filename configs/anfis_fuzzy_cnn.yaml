@@ -1,0 +1,14 @@
+seed: 42
+data_dir: data/raw
+image_size: 224
+val_size: 0.1
+test_size: 0.1
+batch_size: 16
+num_workers: 2
+learning_rate: 0.0002
+weight_decay: 0.0001
+epochs: 12
+output_dir: models/anfis_fuzzy_cnn
+device: auto
+num_rules: 8
+dropout: 0.3

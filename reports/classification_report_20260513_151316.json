@@ -1,0 +1,41 @@
+{
+  "classification_report": {
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+      "precision": 0.44,
+      "recall": 0.21153846153846154,
+      "f1-score": 0.2857142857142857,
+      "support": 52.0
+    },
+    "Corn_(maize)___Common_rust_": {
+      "precision": 0.9833333333333333,
+      "recall": 0.9915966386554622,
+      "f1-score": 0.9874476987447699,
+      "support": 119.0
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+      "precision": 0.6640625,
+      "recall": 0.8673469387755102,
+      "f1-score": 0.7522123893805309,
+      "support": 98.0
+    },
+    "Corn_(maize)___healthy": {
+      "precision": 1.0,
+      "recall": 0.9655172413793104,
+      "f1-score": 0.9824561403508771,
+      "support": 116.0
+    },
+    "accuracy": 0.8467532467532467,
+    "macro avg": {
+      "precision": 0.7718489583333333,
+      "recall": 0.7589998200871861,
+      "f1-score": 0.7519576285476159,
+      "support": 385.0
+    },
+    "weighted avg": {
+      "precision": 0.8337007575757576,
+      "recall": 0.8467532467532467,
+      "f1-score": 0.8312860920721149,
+      "support": 385.0
+    }
+  }
+}

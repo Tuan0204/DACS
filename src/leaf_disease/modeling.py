@@ -27,8 +27,15 @@ def build_model(model_name: str, num_classes: int, pretrained: bool = True) -> n
         model.classifier[-1] = nn.Linear(in_features, num_classes)
         return model
 
+    if name == "efficientnet_b4":
+        weights = models.EfficientNet_B4_Weights.DEFAULT if pretrained else None
+        model = models.efficientnet_b4(weights=weights)
+        in_features = model.classifier[-1].in_features
+        model.classifier[-1] = nn.Linear(in_features, num_classes)
+        return model
+
     raise ValueError(
-        "Unsupported model_name. Use one of: resnet18, resnet50, mobilenet_v3_small"
+        "Unsupported model_name. Use one of: resnet18, resnet50, mobilenet_v3_small, efficientnet_b4"
     )
 
 

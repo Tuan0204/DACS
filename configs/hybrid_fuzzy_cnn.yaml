@@ -1,0 +1,17 @@
+seed: 42
+data_dir: data/raw
+image_size: 224
+val_size: 0.1
+test_size: 0.1
+batch_size: 16
+num_workers: 2
+backbone_name: mobilenet_v3_small
+pretrained: true
+learning_rate: 0.0002
+weight_decay: 0.0001
+epochs: 12
+output_dir: models/hybrid_fuzzy_cnn
+device: auto
+fuzzy_rules: 8
+latent_dim: 64
+dropout: 0.3

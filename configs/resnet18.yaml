@@ -1,0 +1,14 @@
+seed: 42
+data_dir: data/raw
+image_size: 224
+val_size: 0.1
+test_size: 0.1
+batch_size: 32
+num_workers: 2
+model_name: resnet18
+pretrained: true
+learning_rate: 0.0003
+weight_decay: 0.0001
+epochs: 10
+output_dir: models/resnet18
+device: auto

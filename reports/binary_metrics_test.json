@@ -1,0 +1,39 @@
+{
+  "accuracy": 0.9948186528497409,
+  "macro_f1": 0.9938677596670162,
+  "latency_ms_per_image": 50.68967020725284,
+  "model_name": "efficientnet_b4",
+  "model_size_mb": 67.43,
+  "device": "cpu",
+  "class_names": [
+    "Corn_(maize)___healthy",
+    "diseased"
+  ],
+  "healthy_class_index": 3,
+  "confusion_matrix": [
+    [
+      116,
+      0
+    ],
+    [
+      2,
+      268
+    ]
+  ],
+  "per_class": [
+    {
+      "class_name": "Corn_(maize)___healthy",
+      "precision": 0.9830508474576272,
+      "recall": 1.0,
+      "f1": 0.9914529914529915,
+      "support": 116
+    },
+    {
+      "class_name": "diseased",
+      "precision": 1.0,
+      "recall": 0.9925925925925926,
+      "f1": 0.9962825278810409,
+      "support": 270
+    }
+  ]
+}
